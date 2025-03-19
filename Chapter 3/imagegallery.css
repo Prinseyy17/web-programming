@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+figure {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+figure:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+/* Random filters for images using nth-child */
+.filtered:nth-child(1) {
+    filter: grayscale(70%) brightness(90%) contrast(110%) drop-shadow(0px 4px 10px black);
+}
+
+.filtered:nth-child(2) {
+    filter: sepia(60%) saturate(150%) hue-rotate(30deg) drop-shadow(0px 4px 10px black);
+}
+
+.filtered:nth-child(3) {
+    filter: invert(40%) brightness(85%) contrast(120%) drop-shadow(0px 4px 10px black);
+}
+
+.filtered:nth-child(4) {
+    filter: blur(2px) hue-rotate(180deg) drop-shadow(0px 4px 10px black);
+}
+
+.filtered:nth-child(5) {
+    filter: grayscale(100%) brightness(100%) contrast(80%) drop-shadow(0px 4px 10px black);
+}
+
+.filtered:nth-child(6) {
+    filter: saturate(200%) contrast(150%) brightness(80%) drop-shadow(0px 4px 10px black);
+}
+
+.filtered:nth-child(7) {
+    filter: hue-rotate(90deg) saturate(100%) contrast(100%) drop-shadow(0px 4px 10px black);
+}
+
+.filtered:nth-child(8) {
+    filter: invert(100%) brightness(90%) contrast(100%) drop-shadow(0px 4px 10px black);
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #cccccc;
+    margin-top: 10px;
+}

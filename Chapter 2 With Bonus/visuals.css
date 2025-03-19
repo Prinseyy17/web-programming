@@ -1,0 +1,144 @@
+/* Global body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and navbar styling */
+header {
+    text-align: left;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding: 10px;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title of the page */
+h1 {
+    font-size: 2.5rem;
+    color: #ffd700;
+}
+
+/* Subtitle (h2) styling */
+h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+    color: #ffd700;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 40px;
+}
+
+/* Movie posters section */
+.movie {
+    margin-top: 30px;
+}
+
+.movie .posters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.movie .posters div {
+    text-align: center;
+}
+
+/* Character section styling */
+.characters-section {
+    margin-bottom: 40px;
+}
+
+/* Each character container */
+.character {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+}
+
+.character img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.character p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* Blockquote styling for reviews */
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 5px solid #ffd700;
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .character {
+        width: 45%;
+    }
+
+    .movie .posters {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 480px) {
+    .character {
+        width: 90%;
+    }
+}
