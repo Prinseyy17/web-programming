@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RGB Color Guessing Game</title>
+    <link rel="stylesheet" href="rnggame.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <h1>RGB Color Guessing Game</h1>
+        <p>Guess the correct color for: <span id="rgb-value">rgb(?, ?, ?)</span></p>
+
+        <!-- Color Options -->
+        <div id="color-options"></div>
+
+        <!-- Game Info -->
+        <p id="feedback"></p>
+        <p>Lives: <span id="lives">3</span></p>
+        <p>Score: <span id="score">0</span></p>
+
+        <!-- Replay Button -->
+        <button id="replay" style="display:none;">Play Again</button>
+    </div>
+
+    <script src="rnggame.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Game Container */
+.game-container {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Color Options Styling */
+#color-options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual Color Option */
+.color-box {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 3px solid #fff;
+    transition: transform 0.3s;
+}
+
+/* Hover Effect */
+.color-box:hover {
+    transform: scale(1.1);
+}
+
+/* Replay Button Styling */
+button {
+    background-color: #1e90ff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0b6fc2;
+}
