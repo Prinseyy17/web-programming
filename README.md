@@ -102,5 +102,5 @@ An interactive game where users:
 This project is licensed under the MIT License.
 
 ## Author
-[Your Name] - Web Development Student
+Prinse Andrew Katigbak - Creative Computing Level 4
 
